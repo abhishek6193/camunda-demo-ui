@@ -1,0 +1,28 @@
+.submit-button {
+    display: flex;
+    justify-content: center;
+}
+.shelf-container-btn {
+    background-color: #ff1e00;
+    color: #fff;
+    padding: 15px 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 0;
+    margin-right: 20px;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+.shelf-container-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.failedOrdersLinkContainer {
+    text-align: center;
+    padding: 10px 20px 0 0;
+}
+.failedOrdersLink {
+    text-decoration: underline;
+    color: #ff1e00;
+    cursor: pointer;
+}

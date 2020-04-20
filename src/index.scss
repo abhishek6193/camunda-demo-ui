@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  color: #1b1a20;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    .filters {
+      width: 20%;
+    }
+
+    .shelf-container {
+
+      .shelf-item {
+        width: 33.33%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    .filters {
+      width: 25%;
+    }
+
+    .shelf-container {
+
+      .shelf-item {
+        width: 50%;
+        padding: 10px;
+
+        &__title {
+          margin-top: 5px;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  body {
+    .shelf-container {
+
+      .shelf-item {
+        width: 50%;
+      }
+    }
+  }
+}
